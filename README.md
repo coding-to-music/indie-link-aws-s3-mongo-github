@@ -1,3 +1,51 @@
+# indie-link-aws-s3-mongo-github
+
+# 🚀 Online Platform for independent game developers 🚀
+
+https://github.com/coding-to-music/indie-link-aws-s3-mongo-github
+
+https://indie-link-aws-s3-mongo-github.vercel.app
+
+From / By https://github.com/CianOShea/IndieLink
+
+## Environment variables:
+
+```java
+SERVER_URL: process.env.SERVER_URL || 'http://localhost:3000'
+
+const port = parseInt(process.env.PORT, 10) || 3000
+const dev = process.env.NODE_ENV !== 'production'
+const S3_BUCKET_NAME = process.env.S3_BUCKET_NAME;
+
+process.env.JWT_SECRET,
+
+accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+Bucket: process.env.S3_BUCKET_NAME
+
+await mongoose.connect(process.env.MONGO_URI, {
+
+SERVER_URL=
+MONGO_URI=''
+JWT_SECRET=''
+S3_BUCKET_NAME=''
+GITHUB_USERNAME=''
+AWS_ACCESS_KEY_ID=''
+AWS_SECRET_ACCESS_KEY=''
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/indie-link-aws-s3-mongo-github.git
+git push -u origin main
+```
+
 # IndieLink
 
 This file is part of IndieLink.
